@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/ABCD.png" type="image/x-icon">
+  </head>
+  <body>
+
+    <div class="container mt-5">
+        <div class="row row-cols-lg-6 row-cols-md-3 row-cols-sm-1 gap-2 justify-content-center" id="abcd">
+            
+        </div>
+    </div>
+    
+
+    <script>
+        let output = "";
+        const arr = [
+            {title: "a",logo: "images/a.png",name: "angular"},
+            {title: "b",logo: "images/b.png",name: "bootstratp"},
+            {title: "c",logo: "images/c.png",name: "chatGPT"},
+            {title: "d",logo: "images/d.png",name: "docker"},
+            {title: "e",logo: "images/e.png",name: "express js"},
+            {title: "f",logo: "images/f.png",name: "font awesome"},
+            {title: "g",logo: "images/g.png",name: "github"},
+            {title: "h",logo: "images/h.png",name: "HTML"},
+            {title: "i",logo: "images/i.png",name: "init"},
+            {title: "j",logo: "images/j.png",name: "java"},
+            {title: "k",logo: "images/k.png",name: "kotlin"},
+            {title: "l",logo: "images/l.png",name: "linkedin"},
+            {title: "m",logo: "images/m.png",name: "mongoDB"},
+            {title: "n",logo: "images/n.png",name: "node js"},
+            {title: "o",logo: "images/o.png",name: "oracle"},
+            {title: "p",logo: "images/p.png",name: "python"},
+            {title: "q",logo: "images/q.png",name: "jquery"},
+            {title: "r",logo: "images/r.png",name: "react"},
+            {title: "s",logo: "images/s.png",name: "semicolon"},
+            {title: "t",logo: "images/t.png",name: "tailwind"},
+            {title: "u",logo: "images/u.png",name: "ui/ux"},
+            {title: "v",logo: "images/v.png",name: "vs code"},
+            {title: "w",logo: "images/w.png",name: "wordpress"},
+            {title: "x",logo: "images/x.png",name: "XAMPP"},
+            {title: "y",logo: "images/y.png",name: "youtube"},
+            {title: "z",logo: "images/z.png",name: "z-index"},
+        ]
+
+        
+        arr.forEach((ele)=>{
+            output += `<div class="col h-auto border border-1 rounded-2 text-center text-capitalize">
+                <h3 class="w-auto my-1">${ele.title}</h3>
+                <img src="${ele.logo}" alt="a" width="60">
+                <p class="w-auto my-1">${ele.name}</p>
+            </div>`;
+        })
+
+        document.getElementById('abcd').innerHTML = output;
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
