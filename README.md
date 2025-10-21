@@ -60,7 +60,7 @@ Each element is designed with **HTML, CSS, and responsiveness** in mind to maint
 ## 🌍 Connect With Me  
 🔗 [LinkedIn](https://www.linkedin.com/in/mihir-vaghela-6a24a8242/)  
 💻 [GitHub](https://github.com/mihir183)  
-📧 yourname@example.com  
+📧 mihirvaghela1811@gmail.com.com  
 
 ---
 
