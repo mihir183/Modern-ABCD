@@ -50,7 +50,10 @@ Each element is designed with **HTML, CSS, and responsiveness** in mind to maint
 ---
 
 ## 📸 Preview  
-![A–Z Tech Stack](./images/ABCD.png)
+<p align="center">
+  <img src="./images/ABCD.png" alt="A–Z Tech Stack" width="80%">
+</p>
+
 
 ---
 
