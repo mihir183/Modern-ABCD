@@ -62,7 +62,7 @@ Each element is designed with **HTML, CSS, and responsiveness** in mind to maint
 💻 [GitHub](https://github.com/mihir183)  
 📧 mihirvaghela1811@gmail.com.com  
 
----
+--- 
 
 ### 🏷️ Hashtags  
 #WebDevelopment #FullStackDeveloper #MERNStack #Python #JavaScript #UIUXDesign #FrontendDevelopment #BackendDevelopment #AI #CodingJourney #TechStack #DeveloperLife #OpenSource #Innovation #LearningEveryday  
