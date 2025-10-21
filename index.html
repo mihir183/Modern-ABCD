@@ -9,12 +9,11 @@
   </head>
   <body>
 
-    <div class="container mt-5">
-        <div class="row row-cols-lg-6 row-cols-md-3 row-cols-sm-1 gap-2 justify-content-center" id="abcd">
-            
+    <div class="container my-5 shadow p-5">
+        <div class="row gap-2 justify-content-center" id="abcd">
         </div>
     </div>
-    
+
 
     <script>
         let output = "";
@@ -49,7 +48,7 @@
 
         
         arr.forEach((ele)=>{
-            output += `<div class="col h-auto border border-1 rounded-2 text-center text-capitalize">
+            output += `<div class="col-9 col-sm-5 col-md-3 col-lg-2 h-auto border border-1 rounded-2 text-center text-capitalize">
                 <h3 class="w-auto my-1">${ele.title}</h3>
                 <img src="${ele.logo}" alt="a" width="60">
                 <p class="w-auto my-1">${ele.name}</p>
