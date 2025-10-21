@@ -50,7 +50,7 @@ Each element is designed with **HTML, CSS, and responsiveness** in mind to maint
 ---
 
 ## 📸 Preview  
-<img src="images/ABCD.png" alt="abcd">
+![A–Z Tech Stack](images/ABCD.png)
 
 ---
 
